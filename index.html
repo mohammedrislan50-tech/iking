@@ -109,10 +109,10 @@ document.querySelectorAll("input,select").forEach(el=>{el.addEventListener("chan
 function restore(){try{const s=JSON.parse(localStorage.getItem("cricketScoreProState")||"null");if(s)Object.assign(state,s);const f=JSON.parse(localStorage.getItem("cricketScoreProForm")||"null");if(f)Object.entries(f).forEach(([k,v])=>setVal(k,v))}catch(e){}}
 restore();render();
 </script>
-</body>
-  <img
+    <img
   src="./scoreboard.png"
   alt="Cricket Scoreboard"
-  style="width:100%; max-width:1200px; height:auto;"
+  sty
+</body>
 >
 </html>
